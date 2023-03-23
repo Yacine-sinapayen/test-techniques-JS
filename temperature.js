@@ -19,7 +19,7 @@ var temps = readline().split(' ');
 				pour cela je passe dans le deuxième argue qui va prendre en compte le 
 				signe des val et va trier de manière Décroissante. Exemple Temps[2,-2].
 				donc forcément temps[0] va nous renvoyer la version postive des val 
-				les + proche de 0 */
+				Òzles + proche de 0 */
 
 var tempsSorted = temps.sort((a, b) =>  Math.abs(a) - Math.abs(b) || b - a);
 

@@ -17,7 +17,6 @@ for (let i = 0; i < taille; i++) {
 /* Objectif 2 : Implémentez la fonction 'findSmallestInterval(tableNumbers)' qui retourne le plus petit intervalle positif entre deux éléments du tableau tableNumbers.
 
 Par exemple, si on considère le tableau [1 6 4 8 2] , le plus petit intervalle est 1 (différence entre 2 et 1)
-
 Contraintes: tableNumbers contient au moins deux éléments et au maximum 100 000 éléments. La solution qui privilégie la vitesse d'exécution pour les tableaux de grande taille obtiendra le plus de points. La différence entre deux éléments ne dépassera jamais la capacité d'un entier pour votre langage.
 
 Comment faire ? :
