@@ -1,4 +1,4 @@
-// Objectif 1 Je créais une fonction qui génère des phrases aléatoire.
+// Objectif 1 : Je créais une fonction qui génère des phrases aléatoire.
 
 function generateRandomSentence(sentence){
     var subjects = ['I', 'You', 'He', 'She', 'It', 'We', 'They'];
@@ -14,7 +14,7 @@ function generateRandomSentence(sentence){
     return sentence;
 }
 
-/* Objectif 2 Implémenter en JavaScript une fonction solution qui affiche chaque mot d'une chaîne de caractères sur une ligne différente :
+/* Objectif 2 : Implémenter en JavaScript une fonction solution qui affiche chaque mot d'une chaîne de caractères sur une ligne différente :
     1 - La fonction prend une chaîne de caractères en paramètre // ou je génère la chaîne via une fonction.
     2 - On utilise la méthode 'split()' pour diviser la chaîne en un tableau de mots en utilisant l'espace comme séparateur.
     3 - On initialise une variable vide 'result' qui sera utilisée pour stocker le résultat final.
