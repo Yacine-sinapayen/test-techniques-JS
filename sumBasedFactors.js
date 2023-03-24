@@ -9,7 +9,7 @@
 4 - Finalement, la fonction renvoie la somme totale des multiples. Dans cet exemple, le résultat renvoyé sera 41 car les multiples positifs de 3, 5 ou 7 strictement inférieurs à 11 sont 3, 5, 6, 7, 9 et 10, dont la somme est 41.
 */
 // 1
-const n = 11;
+const n = 0;
 
 function sumMultiple() {
   // 2
@@ -22,7 +22,7 @@ function sumMultiple() {
     }
   }
   // 4
-  console.log(sum);
+  // console.log(sum);
   return sum;
 }
-console.log(sumMultiple());
+sumMultiple();
