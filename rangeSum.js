@@ -6,12 +6,15 @@ const table = [1, 2, 4, 3, 1, 5, 2];
 const n1 = 1;
 const n2 = 5;
 
-function calc(table, n1, n2){
-    let sum = 0;
-
-    for(let i = n1 ; i <= n2; i++){
-        sum += table[i];
+function calc(table, n1, n2) {
+  let sum = 0;
+  if (table.length === 0) {
+    sum = 0;
+  } else {
+    for (let i = n1; i <= n2; i++) {
+      sum += table[i];
     }
-    console.log(sum);
+  }
+  console.log(sum);
 }
 calc(table, n1, n2);

@@ -1,4 +1,4 @@
-/* Objectif 1 Générer un tableau de nombre aléatoire (ça n'est pas demandé dans le test)*/
+/* Objectif 1 Générer un tableau de nombre aléatoire (ça n'est pas demandé dans le test) */
 // 1 - Je définis la taille du tableau
 const taille = 10;
 
@@ -26,7 +26,7 @@ Rappel moyenne = (somme de tous les élements du tableau / par la taille de celu
     3 - Je boucle sur mon tableau afin d'additionner tous les élemn et les stocker dans ma let 'sum'
     4 - Dans ma const 'moyenne' je divise 'sum' par le nombre de d'elem dans mon tableau afin d'obtenir la moyenne. 
 */
-function averageTable(table) {
+function averageTable() {
   // 1
   let sum = 0;
 
@@ -46,4 +46,4 @@ function averageTable(table) {
   console.log(moyenne || 0);
 }
 // Appel à ma fonction
-averageTable(table);
+// averageTable(table);

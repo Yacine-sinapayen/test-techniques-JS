@@ -16,13 +16,11 @@ function closeToZero() {
   if (!temps) {
     result = null;
   } else {
-	// 3
+    // 3
     result = temps.sort((a, b) => Math.abs(a) - Math.abs(b) || b - a);
   }
 
-
-//   console.log(result);
-//   console.log(result[0] || null);
-//   return result[0] || null;
+  // Résultat
+  return result[0] || null;
 }
-closeToZero(temps);
+console.log(closeToZero(temps));
