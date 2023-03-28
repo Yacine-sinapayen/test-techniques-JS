@@ -28,4 +28,4 @@ function isTwin(a, b) {
     // Vérifie si les deux chaînes triées sont égales
     return sortedA === sortedB;
   }
-//   console.log(isTwin(a,b))
+  // console.log(isTwin(a,b))

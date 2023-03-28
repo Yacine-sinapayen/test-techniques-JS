@@ -2,19 +2,21 @@
 La fonction calc doit retourner la somme des entiers de array dont l'index appartient à l'intervalle
 [n1; n2] .*/
 
-const table = [1, 2, 4, 3, 1, 5, 2];
+const tableRangeSum = [1, 2, 4, 3, 1, 5, 2];
 const n1 = 1;
 const n2 = 5;
 
-function calc(table, n1, n2) {
+function calc(tableRangeSum, n1, n2) {
   let sum = 0;
-  if (table.length === 0) {
+
+  if (tableRangeSum.length === 0) {
     sum = 0;
   } else {
     for (let i = n1; i <= n2; i++) {
-      sum += table[i];
+      sum += tableRangeSum[i];
     }
   }
-  console.log(sum);
+  return sum;
 }
-calc(table, n1, n2);
+
+// console.log(calc(tableRangeSum, n1, n2));

@@ -3,7 +3,7 @@
  Implémentation : 
  Implémentez la fonction findSumPair(numbers, k) qui prend en entrée : un tableau d'entiers positifs (numbers), un entier positif (k) représentant la somme cible.
  Par exemple :
- numbers = [1, 5, 8, 1, 2] k = 13
+ numbers = [1, 5, 8, 1, 2] et k = 13
  Votre fonction findSumPair devrait retourner un tableau de deux entiers, contenant les indices d'une paire d'entiers dans le tableau qui s'additionnent à k. 
  Notez que :
  Le premier index du tableau est 0. Le premier entier dans votre sortie doit représenter l'index inférieur. [0, 0] doit être retourné s'il n'y a pas de paire trouvée. Dans le cas où il y a plusieurs paires possibles qui s'additionnent à la cible, renvoyez la paire dont l'index de gauche est le plus bas. Dans le cas de deux paires ayant le même index de gauche, privilégiez la paire ayant l'index droit le plus bas.
@@ -13,6 +13,7 @@ k = 13;
 
 function findSumPair(numbers, k) {
   const result = [];
+
   // Parcourir chaque entier du tableau et vérifier s'il existe une paire qui s'additionne à k
   for (let i = 0; i < numbers.length; i++) {
     for (let j = i + 1; j < numbers.length; j++) {

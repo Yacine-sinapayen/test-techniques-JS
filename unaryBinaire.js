@@ -102,7 +102,7 @@ function translateToBinaire(char) {
   return binaire7bits;
 }
 
-/* Dans l'ancienne version de la function 'translateToBinaire' (au dessus), nous réalisions nos actions étapes par étapes et l'attribuons à une var. Pour une première version de code c'est très bien de faire comme ça. Mais il est possible de réaliser la même chose en une ligne de code. Pour cela il existe en informatqiue un concept qui s'appelle 'le chainage sur des actions'. */
+/* V2 : Dans l'ancienne version de la function 'translateToBinaire' (au dessus), nous réalisions nos actions étapes par étapes et l'attribuons à une var. Pour une première version de code c'est très bien de faire comme ça. Mais il est possible de réaliser la même chose en une ligne de code. Pour cela il existe en informatqiue un concept qui s'appelle 'le chainage sur des actions'. */
 
 function translateToBinaire(char) {
   return "0000000".concat(char.charCodeAt(0).toString(2)).slice(-7);

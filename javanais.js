@@ -10,6 +10,7 @@ const text = "codingame eet beau";
 function javanaisTranslate(text) {
   // 1
   const vowels = ["a", "e", "i", "o", "u"];
+  
   // 2
   let result = "";
 
@@ -25,6 +26,6 @@ function javanaisTranslate(text) {
       result += text[i];
     }
   }
-  console.log(result);
+  return result;
 }
-javanaisTranslate(text);
+// console.log(javanaisTranslate(text));

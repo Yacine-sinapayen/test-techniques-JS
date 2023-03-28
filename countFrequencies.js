@@ -38,7 +38,7 @@ function countFrequencies(words) {
     }
   }
   // Résultat
-  console.log(occurences);
+  return occurences;
 }
 
-countFrequencies(words);
+// console.log(countFrequencies(words));

@@ -23,4 +23,4 @@ function closeToZero() {
   // Résultat
   return result[0] || null;
 }
-console.log(closeToZero(temps));
+// console.log(closeToZero(temps));

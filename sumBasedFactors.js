@@ -11,7 +11,7 @@
 
 function sumMultiple() {
   // 1
-  let n=0
+  let n = 5
 
   // 2
   let sum = 0;
@@ -24,7 +24,7 @@ function sumMultiple() {
     }
   }
   // 4
-  // console.log(sum);
   return sum;
 }
-sumMultiple();
+
+// console.log(sumMultiple());

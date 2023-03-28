@@ -1,7 +1,5 @@
 /* Objectif 1 Générer un tableau de nombre aléatoire (ça n'est pas demandé dans le test)*/
-// 1 - Je définis la taille du tableau
-const taille = 10;
-
+taille = 10;
 // Je créer un tableau vide
 const tableNumbers = [];
 
@@ -59,7 +57,7 @@ function findSmallestInterval() {
   }
 
   // Résultat
-  console.log(smallesInterval);
+  return smallesInterval;
 }
 
-findSmallestInterval();
+// console.log(findSmallestInterval());

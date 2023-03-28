@@ -1,5 +1,5 @@
 /*Objectif : implémenter une fonction capable de renvoyer le factoriel d'un nombre */
-n = 1 * 2 * 3 
+
 function factoriel(n){
     if(n === 0 || n === 1){
         return 1
@@ -11,4 +11,4 @@ function factoriel(n){
         return result;
     }
 }
-console.log(factoriel(n))
+// console.log(factoriel(n))
