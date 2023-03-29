@@ -28,7 +28,8 @@ function getTopStocks(stocks, prices) {
 
     // Ajouter une vérification pour s'assurer que stockPrices est défini
     if (stockPrices) {
-      const average = stockPrices.reduce((acc, price) => acc + price, 0) / stockPrices.length;
+      const average =
+        stockPrices.reduce((acc, price) => acc + price, 0) / stockPrices.length;
       averages.push({ stock: stocks[i], average: average });
     }
   }
@@ -43,4 +44,4 @@ function getTopStocks(stocks, prices) {
   return topStocks;
 }
 
-// console.log(getTopStocks(stocks, prices));
+console.log(getTopStocks(stocks, prices));
